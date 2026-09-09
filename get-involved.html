@@ -6,7 +6,7 @@
   <title>Get Involved — Chabad Student Association at YU</title>
   <meta name="description" content="Ways to get involved with Chabad at Yeshiva University, plus contact info and Shabbat times." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -23,14 +23,15 @@
         <li><a href="about.html">About</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="get-involved.html" class="btn btn-primary btn-sm">Join Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero" style="padding: 3.5rem 1.5rem 3rem;">
+  <section class="hero page-hero">
     <div class="hero-inner">
-      <p class="eyebrow">Get Involved</p>
-      <h1 style="font-size:2.2rem;">There's Room for You Here</h1>
+      <span class="eyebrow"><span class="dot"></span> Get Involved</span>
+      <h1>There's Room for You Here</h1>
       <p class="lead">
         No sign-up required to show up. Here's how students usually get plugged in.
       </p>
@@ -41,34 +42,37 @@
     <div class="container">
 
       <div class="involve-grid">
-        <div class="card">
-          <span class="icon">🕯️</span>
+        <div class="tile glass reveal">
+          <div class="tile-icon">🕯️</div>
           <h3>Come for Shabbat</h3>
           <p>The easiest way to get started. Just show up Friday evening — no RSVP, no dues, no pressure.</p>
         </div>
-        <div class="card">
-          <span class="icon">📚</span>
+        <div class="tile glass gold reveal">
+          <div class="tile-icon">📚</div>
           <h3>Start Learning</h3>
           <p>Ask about chavrusa pairing or drop in on Coffee &amp; Torah. All levels and backgrounds welcome.</p>
         </div>
-        <div class="card">
-          <span class="icon">🙌</span>
+        <div class="tile glass reveal">
+          <div class="tile-icon">🙌</div>
           <h3>Volunteer</h3>
           <p>Join a monthly chesed project, or help set up and run a Shabbat dinner or holiday event.</p>
         </div>
-        <div class="card">
-          <span class="icon">📣</span>
+        <div class="tile glass gold reveal">
+          <div class="tile-icon">📣</div>
           <h3>Spread the Word</h3>
           <p>Bring a friend who's never been, or help us get the word out about upcoming events.</p>
         </div>
       </div>
 
-      <div class="shabbat-callout">
-        <h3>This Week's Shabbat Times</h3>
-        <p>Candle lighting and dinner details are shared weekly by email and on our social pages — reach out below to get added to the list.</p>
+      <div class="shabbat-callout glass reveal">
+        <span class="flame">🕯️</span>
+        <div>
+          <h3>This Week's Shabbat Times</h3>
+          <p>Candle lighting and dinner details are shared weekly by email and on our social pages — reach out below to get added to the list.</p>
+        </div>
       </div>
 
-      <div class="contact-panel">
+      <div class="contact-panel glass reveal">
         <div>
           <h3>Contact Us</h3>
           <p class="contact-item">✉️ <a href="mailto:chabad@yu.edu">chabad@yu.edu</a></p>
@@ -91,14 +95,42 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="events.html">Events</a>
-        <a href="get-involved.html">Get Involved</a>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark">C</span>
+            Chabad @ YU
+          </a>
+          <p>A warm, open home for every Jewish student at Yeshiva University — no matter your background or how observant you are.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="get-involved.html">Join a Shabbat</a></li>
+            <li><a href="get-involved.html">Start Learning</a></li>
+            <li><a href="get-involved.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:chabad@yu.edu">chabad@yu.edu</a></li>
+            <li><a href="tel:+12125551234">(212) 555-1234</a></li>
+            <li><a href="get-involved.html">Follow along</a></li>
+          </ul>
+        </div>
       </div>
-      <p>Chabad Student Association at Yeshiva University</p>
-      <p class="fine-print">This is a student-built project for a class on AI-assisted development. Contact details on this site are placeholders — swap in your chapter's real info.</p>
+      <div class="footer-bottom">
+        <p>Chabad Student Association at Yeshiva University &mdash; a student-built project for a class on AI-assisted development. Contact details on this site are placeholders — swap in your chapter's real info.</p>
+      </div>
     </div>
   </footer>
 

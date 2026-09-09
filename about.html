@@ -6,7 +6,7 @@
   <title>About Us — Chabad Student Association at YU</title>
   <meta name="description" content="Learn about the Chabad Student Association at Yeshiva University: our mission, our values, and the people behind it." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -23,14 +23,15 @@
         <li><a href="about.html">About</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="get-involved.html" class="btn btn-primary btn-sm">Join Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero" style="padding: 3.5rem 1.5rem 3rem;">
+  <section class="hero page-hero">
     <div class="hero-inner">
-      <p class="eyebrow">About Us</p>
-      <h1 style="font-size:2.2rem;">Who We Are</h1>
+      <span class="eyebrow"><span class="dot"></span> About Us</span>
+      <h1>Who We Are</h1>
       <p class="lead">
         Chabad on campus, built for YU students, by people who genuinely want to know your story.
       </p>
@@ -39,8 +40,7 @@
 
   <section>
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">Our Mission</p>
+      <div class="section-head reveal">
         <h2>An open door, no strings attached</h2>
         <p>
           The Chabad Student Association at YU exists to make sure every Jewish student has a warm,
@@ -50,63 +50,63 @@
         </p>
       </div>
       <ul class="value-list">
-        <li>
+        <li class="glass reveal">
           <strong>Ahavat Yisrael</strong>
-          Love of a fellow Jew, full stop — no conditions, no litmus test.
+          <p>Love of a fellow Jew, full stop — no conditions, no litmus test.</p>
         </li>
-        <li>
+        <li class="glass reveal">
           <strong>Open Doors</strong>
-          Every event, every class, every Shabbat table is open to any student who wants to be there.
+          <p>Every event, every class, every Shabbat table is open to any student who wants to be there.</p>
         </li>
-        <li>
+        <li class="glass reveal">
           <strong>Meaningful Torah</strong>
-          Learning that's relevant to real life, taught at whatever pace makes sense for you.
+          <p>Learning that's relevant to real life, taught at whatever pace makes sense for you.</p>
         </li>
-        <li>
+        <li class="glass reveal">
           <strong>Simcha</strong>
-          Judaism celebrated with joy — good food, good music, good company.
+          <p>Judaism celebrated with joy — good food, good music, good company.</p>
         </li>
       </ul>
     </div>
   </section>
 
-  <section class="alt-bg">
+  <section>
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">What is Chabad?</p>
-        <h2>A worldwide network, a local home</h2>
-        <p>
-          Chabad is a movement within Judaism built around study, warmth, and hospitality —
-          with centers on campuses and in communities around the world. At YU, our chapter
-          focuses on giving students a low-pressure space to explore, ask questions, and
-          connect with other Jewish students, alongside a full academic Jewish studies program
-          already offered by the university.
-        </p>
+      <div class="thought-panel glass reveal">
+        <div class="thought-mark">🌐</div>
+        <div>
+          <blockquote>A worldwide network, a local home.</blockquote>
+          <cite>
+            Chabad is a movement within Judaism built around study, warmth, and hospitality — with centers
+            on campuses and in communities around the world. At YU, our chapter focuses on giving students
+            a low-pressure space to explore, ask questions, and connect with other Jewish students, alongside
+            a full academic Jewish studies program already offered by the university.
+          </cite>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">Meet the Team</p>
-        <h2>The people behind the Shabbat table</h2>
+      <div class="section-head reveal">
+        <h2>Meet the Team</h2>
         <p>Placeholder team profiles — swap these in for your chapter's real leadership and student board.</p>
       </div>
       <div class="team-grid">
-        <div class="team-card">
+        <div class="team-card glass reveal">
           <div class="team-avatar">R</div>
           <h3>Rabbi &amp; Rebbetzin</h3>
           <p class="team-role">Chapter Directors</p>
           <p class="bio">Run weekly programming, host Shabbat meals, and are always around for a coffee and a conversation.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card glass reveal">
           <div class="team-avatar">S</div>
           <h3>Student Board President</h3>
           <p class="team-role">Student Leadership</p>
           <p class="bio">Coordinates student-led events and makes sure the calendar reflects what students actually want.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card glass reveal">
           <div class="team-avatar">E</div>
           <h3>Events &amp; Outreach Chair</h3>
           <p class="team-role">Student Leadership</p>
@@ -118,14 +118,42 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="events.html">Events</a>
-        <a href="get-involved.html">Get Involved</a>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark">C</span>
+            Chabad @ YU
+          </a>
+          <p>A warm, open home for every Jewish student at Yeshiva University — no matter your background or how observant you are.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="get-involved.html">Join a Shabbat</a></li>
+            <li><a href="get-involved.html">Start Learning</a></li>
+            <li><a href="get-involved.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:chabad@yu.edu">chabad@yu.edu</a></li>
+            <li><a href="tel:+12125551234">(212) 555-1234</a></li>
+            <li><a href="get-involved.html">Follow along</a></li>
+          </ul>
+        </div>
       </div>
-      <p>Chabad Student Association at Yeshiva University</p>
-      <p class="fine-print">This is a student-built project for a class on AI-assisted development. Contact details on this site are placeholders.</p>
+      <div class="footer-bottom">
+        <p>Chabad Student Association at Yeshiva University &mdash; a student-built project for a class on AI-assisted development. Contact details on this site are placeholders.</p>
+      </div>
     </div>
   </footer>
 
